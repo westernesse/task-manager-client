@@ -10,6 +10,8 @@ import {
   Calendar,
   Tag,
   Settings,
+  CircleDot,
+  Flag,
 } from 'lucide-react'
 import { Separator } from '@/components/ui/separator'
 
@@ -38,6 +40,16 @@ const navItems = [
     title: 'Tags',
     href: '/dashboard/tags',
     icon: Tag,
+  },
+  {
+    title: 'Statuses',
+    href: '/dashboard/statuses',
+    icon: CircleDot,
+  },
+  {
+    title: 'Priorities',
+    href: '/dashboard/priorities',
+    icon: Flag,
   },
 ]
 
